@@ -1,9 +1,13 @@
 /* google font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
 
+
+
+
+
 /* layout */
 :root {
-  --primary: #1aac83;
+  --primary: #0fa43a;
   --error: #e7195a;
 }
 body {
@@ -12,7 +16,7 @@ body {
   font-family: "Poppins";
 }
 header {
-  background: #fff;
+  background: #d7f0e7;
 }
 header .container {
   max-width: 1400px;
@@ -23,10 +27,12 @@ header .container {
   justify-content: space-between;
 }
 header a {
-  color: #333;
+  color: #2a8304;
   text-decoration: none;
 }
 .pages{
+  /* background-image:url( 'D:\Projects\MernStackGit\frontend\src\pages\stacked-zen-stones-sand-background-art-balance-concept.jpg'); */
+
   max-width: 1400px;
   padding: 20px;
   margin: 0 auto;
@@ -39,15 +45,24 @@ header a {
   gap: 100px;
 }
 
+
+
+
+
 .workout-Details{
-  background: #fff;
+  
+  
+  background: #d7f0e7;
   border-radius: 4px;
   margin: 20px auto;
+  margin-left: 0;
+
   padding: 20px;
   position: relative;
-  box-shadow: 2px 2px 5px  rgba(0,0,0,0.05);
+  box-shadow: 2px 2px 5px  rgba(126, 218, 12, 0.05);
 
 }
+
 
 .workout-Details h4{
   margin: 0 0 10px 0;
@@ -58,24 +73,27 @@ header a {
 .workout-Details p{
   margin: 0;
   font-size: 0.9em;
-  color: #555;
+  color: #043419;
 }
 
 .workout-Details span{
-
+  
   position: absolute;
   top: 20px;
   right: 20px;
   cursor: pointer;
   background : #f1f1f1 ;
   padding: 6px;
+  
   border-radius: 50%;
-  color: #333;
+  color: hsl(115, 90%, 8%);
 }
 
 /* New workout form*/
 label,input{
   display: block;
+  color: #161616;
+  font-size: 1.1em;
 }
 
 input{
@@ -110,3 +128,15 @@ div.error{
 input.error{
   border: 1px solid var(--error);
 }
+
+body {
+  background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20240720/pngtree-balanced-stack-of-rocks-and-lotus-flower-on-patterned-sand-blur-image_15941030.jpg');
+  background-size: cover; /* Ensures the image covers the entire screen */
+  background-position: center; /* Centers the image */
+  background-attachment: fixed; /* Keeps the image fixed in place while scrolling */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-color: #f1f1f1; /* Fallback background color */
+  margin: 0;
+  font-family: "Poppins";
+}
+
